@@ -1,0 +1,22 @@
+{
+  "name": "pratica01-crud-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leotome/dw-a3s1-30002511.git"
+  },
+  "author": "Leonardo Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leotome/dw-a3s1-30002511/issues"
+  },
+  "homepage": "https://github.com/leotome/dw-a3s1-30002511#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
