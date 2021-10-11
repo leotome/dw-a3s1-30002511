@@ -6,6 +6,8 @@ app.use(express.json());
 
 app.use(express.urlencoded({extended : true}));
 
+require("./rotas/crudrest.rotas")(app);
+
 app.get("/", (req, res) => {
     res.json({mensagem : "Bem-vindos à primeira aplicação CRUD-REST."})
 });
