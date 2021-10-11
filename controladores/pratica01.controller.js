@@ -1,6 +1,6 @@
 // CREATE - cria um novo registo
 exports.create = (req, res) => {
-    console.log("Create");
+    console.log("Create", req.body);
     if (!req.body) {
       return res.status(400).send({
         message: "O conteúdo não pode ser vazio!",
@@ -26,7 +26,9 @@ exports.create = (req, res) => {
       });
     }
     return res.send({
-      message: "Atualizou um registo!",
+      record : req.body,
+      id : req.params.id,
+      message : "O registo foi atualizado com sucesso!"
     });
   };
   
